@@ -1,0 +1,37 @@
+[project]
+name = "my-autocar"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "caer>=2.1.1",
+    "gitpython>=3.1.30",
+    "jupyterlab>=4.5.6",
+    "matplotlib>=3.3",
+    "numpy>=1.23.5",
+    "opencv-contrib-python>=4.13.0.92",
+    "opencv-python>=4.1.1",
+    "pandas>=1.1.4",
+    "pillow>=10.3.0",
+    "psutil>=7.2.2",
+    "pygame==2.5.2",
+    "pyyaml>=5.3.1",
+    "requests>=2.32.2",
+    "scipy>=1.4.1",
+    "seaborn>=0.11.0",
+    "setuptools<70.0.0",
+    "thop>=0.1.1",
+    "torch>=1.8.0",
+    "torchvision>=0.9.0",
+    "tqdm>=4.66.3",
+    "ultralytics>=8.2.34",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[tool.uv]
+managed = true
+package = false
